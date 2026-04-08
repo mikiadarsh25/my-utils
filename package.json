@@ -1,0 +1,38 @@
+{
+  "name": "my-utils",
+  "version": "1.0.0",
+  "description": "A comprehensive utility modules library for common development tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "keywords": [
+    "utilities",
+    "helpers",
+    "aws",
+    "http",
+    "validation",
+    "logger"
+  ],
+  "author": "Adarsh Prakash",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "joi": "^17.13.0",
+    "express": "^4.18.2"
+  },
+  "peerDependencies": {
+    "express": "^4.18.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
